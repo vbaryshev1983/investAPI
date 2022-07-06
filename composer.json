@@ -1,0 +1,26 @@
+{
+    "name": "vbaryshev1983/investapi",
+    "version": "1.0",
+    "description": "Unofficial PHP SDK for Tinkoff Invest API v2",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "tinkoff",
+        "invest api"
+    ],
+    "homepage": "https://github.com/vbaryshev1983/investapi",
+    "authors": [
+        {
+            "name": "Vladimir Baryshev",
+            "email": "baryshev1983@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-grpc": "^1.43",
+        "grpc/grpc": "^1.42",
+        "google/protobuf": "^3.19"
+    },
+ 
